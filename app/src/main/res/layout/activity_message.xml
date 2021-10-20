@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/white"
+    tools:context=".Activities.MessageActivity">
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+
+        android:padding="10dp"
+        android:textColor="@color/main2"
+
+        />
+
+    <Button
+        android:id="@+id/messageSubmitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@color/main"
+        android:text="Submit"
+        android:fontFamily="@font/roboto_light"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+</LinearLayout>

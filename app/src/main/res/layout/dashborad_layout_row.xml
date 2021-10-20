@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dashCardView"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:minWidth="150dp"
+
+        app:cardCornerRadius="15dp">
+        <LinearLayout
+            android:id="@+id/dashLayout"
+            android:layout_width="match_parent"
+            android:minWidth="150dp"
+
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <ImageView
+        android:id="@+id/dashImageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:tint="@color/black"
+        android:src="@drawable/no_photo"/>
+    <TextView
+        android:id="@+id/dashTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto_medium"
+        android:text="tittle"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

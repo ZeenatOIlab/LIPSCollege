@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "89553382185",
+    "project_id": "lipscollage-b21fd",
+    "storage_bucket": "lipscollage-b21fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89553382185:android:888d9603c370d6f88fa538",
+        "android_client_info": {
+          "package_name": "com.lipscollage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89553382185-ip9j6noou6f9aplkju2iu1n17mkjilr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFhqofj-LkLCm52VhkwaQy6KoVaoCbDV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89553382185-ip9j6noou6f9aplkju2iu1n17mkjilr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="@color/main"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto_light"
+            android:text="09.00am-09.45am"/>
+        <TextView
+            android:id="@+id/subject"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/main"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto_light"
+            android:text="English"/>
+        <TextView
+            android:id="@+id/room"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/main"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto_light"
+            android:text="102"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lipscollage">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LIPSCollage"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activities.MessageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.LecturePerfomaDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.LecturePerfomaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.LibraryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.DocumentDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.DownloadActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.LIPSCollage.NoActionBar" />
+        <activity
+            android:name=".Activities.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.TimeTableActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.DashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.PDFActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.LIPSCollage.NoActionBar" />
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.LIPSCollage.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Activities.LoginActivity">
+
+    <ImageView
+        android:id="@+id/backImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:padding="10dp"
+        android:src="@drawable/icn_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Login"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="please enter login Details....."
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/mobileEdittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name*"
+                    android:fontFamily="@font/roboto_light"
+                    android:padding="15dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_bg"
+                    android:inputType="text"
+                    android:text="akshita"
+                    android:backgroundTint="@color/edittext_bg"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeWidth="0dp"
+                android:layout_marginTop="10dp"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/main2"
+                android:fontFamily="@font/roboto_medium"
+                app:hintEnabled="false"
+                >
+
+                <EditText
+                    android:id="@+id/passwordEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password*"
+                    android:inputType="numberPassword"
+                    android:padding="15dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="123456"
+                    android:background="@drawable/btn_bg"
+                    android:backgroundTint="@color/edittext_bg"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <EditText
+                    android:id="@+id/collegeEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="College*"
+                    android:padding="15dp"
+                    android:text="gdcol1"
+                    android:inputType="text"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/roboto_light"
+
+                    android:background="@drawable/btn_bg"
+                    android:backgroundTint="@color/edittext_bg"/>
+
+
+            <Button
+                android:id="@+id/loginSubmitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_bg"
+                android:backgroundTint="@color/main"
+                android:text="Submit"
+                android:fontFamily="@font/roboto_light"
+
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

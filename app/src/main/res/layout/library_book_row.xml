@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="3dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/booknameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book name"
+            android:textColor="@color/main2"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/authorTextiew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="author,publisher"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/dateTextiew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19 july 2019 to 12 july "
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_light"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/submission_dateTextiew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submission_date : 19 july 2018"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_light"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/fneTextiew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
