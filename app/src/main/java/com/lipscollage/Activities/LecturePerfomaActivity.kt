@@ -2,15 +2,12 @@ package com.lipscollage.Activities
 
 import android.app.AlertDialog
 import android.app.ProgressDialog
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.RelativeLayout
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.lipscollage.Adapters.DocumentAdapter
 import com.lipscollage.Adapters.LectureperformaAdapter
-import com.lipscollage.Adapters.TimeTableAdapter
-import com.lipscollage.Models.DocumentModel
 import com.lipscollage.Models.LectureperformaModel
 import com.lipscollage.R
 import com.lipscollage.Utility.SetCustomActionBar

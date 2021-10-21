@@ -83,6 +83,9 @@ class DashboardActivity : AppCompatActivity() {
                 else if (dashList[pos].type.equals("message")) {
                     startActivity(Intent(activity,MessageActivity::class.java))
                 }
+                else if (dashList[pos].type.equals("calendar")) {
+                    startActivity(Intent(activity,CalendarActivity::class.java))
+                }
             }
         })
     }
