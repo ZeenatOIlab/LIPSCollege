@@ -10,4 +10,6 @@
     <string name="feculty_name">Feculty Name</string>
     <string name="semester">Semester</string>
     <string name="total_lecture">Total Lecture</string>
+    <string name="view"><u>View</u>
+    </string>
 </resources>

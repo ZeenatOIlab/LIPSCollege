@@ -12,16 +12,19 @@
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/drawable-hdpi/bg2.xml" value="0.2203125" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/drawable-xxhdpi/ic_no_data.xml" value="0.2203125" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/drawable/bg.xml" value="0.1814814814814815" />
+        <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/drawable/box_shap.xml" value="0.18076923076923077" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/drawable/btn_bg.xml" value="0.2203125" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/drawable/circle_shape.xml" value="0.20625" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/drawable/dot_shape.xml" value="0.2203125" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/drawable/edit_text_bg.xml" value="0.2203125" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/drawable/line_bg.xml" value="0.20625" />
+        <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_attendance.xml" value="0.18" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_calendar.xml" value="0.17218543046357615" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_dashboard.xml" value="0.19895833333333332" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_document_detail.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_download.xml" value="0.11005434782608696" />
+        <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_fees.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_lecture_perfoma.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_lecture_perfoma_detail.xml" value="0.2688984881209503" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_library.xml" value="0.20416666666666666" />
@@ -29,21 +32,28 @@
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_message.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_new_temp.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_notice_board.xml" value="0.15598290598290598" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_pdfactivity.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_profile.xml" value="0.22" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_temp.xml" value="0.19010416666666666" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/activity_time_table.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/boxshape.xml" value="0.2384428223844282" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/change_password_layout.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/custom_action_bar.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/dashborad_layout_row.xml" value="0.5" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/document_row.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/download_row.xml" value="0.4715909090909091" />
+        <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/fees_row.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/fragment_profile__parents.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/fragment_profile__personal.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/lecture_perfoma_detail_topic_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/lecture_perfoma_detailrow.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/lecture_perfoma_row.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/lecture_perfoma_subtopic_row.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/library_book_row.xml" value="0.33" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/no_data_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/notice_board_row.xml" value="0.25950054288816504" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/time_table_detail_row.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/LIPSCollage/app/src/main/res/layout/timetable_row.xml" value="0.2384428223844282" />
       </map>

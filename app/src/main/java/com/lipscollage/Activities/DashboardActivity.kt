@@ -86,17 +86,25 @@ class DashboardActivity : AppCompatActivity() {
                 else if (dashList[pos].type.equals("calendar")) {
                     startActivity(Intent(activity,CalendarActivity::class.java))
                 }
+                else if (dashList[pos].type.equals("fees")) {
+                    startActivity(Intent(activity,FeesActivity::class.java))
+                }
+                else if (dashList[pos].type.equals("notice_board")) {
+                    startActivity(Intent(activity,NoticeBoardActivity::class.java))
+                }
+                else if (dashList[pos].type.equals("attendance")) {
+                    startActivity(Intent(activity,AttendanceActivity::class.java))
+                }
             }
         })
     }
-
     private fun getDashboardItem() {
         dashList = mutableListOf()
         dashList.add(DashboardModel(R.drawable.chat, "Message To/From College", "message"))
         dashList.add(DashboardModel(R.drawable.icn_download, "Downloads \n", "download"))
         dashList.add(DashboardModel(R.drawable.attendance_icon, "Attendance \n", "attendance"))
         dashList.add(DashboardModel(R.drawable.leture_icon, "Lecture Perfoma \n ", "lecture"))
-        dashList.add(DashboardModel(R.drawable.icon_notice_board, "Notice Board \n", "notice"))
+        dashList.add(DashboardModel(R.drawable.icon_notice_board, "Notice Board \n", "notice_board"))
         dashList.add(DashboardModel(R.drawable.timetable_icon, "Time Table\n ", "timetable"))
         dashList.add(DashboardModel(R.drawable.calendar_icon, "Academic Calendar\n ", "calendar"))
         dashList.add(DashboardModel(R.drawable.rupee_icon, "Fees Details \n", "fees"))

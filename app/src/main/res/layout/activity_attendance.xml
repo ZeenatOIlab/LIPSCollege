@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.AttendanceActivity">
+
+    <com.applandeo.materialcalendarview.CalendarView
+        android:id="@+id/AttendancecalendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:headerColor="@color/stausbar"
+        android:elevation="10dp"
+        app:datePicker="true"
+        app:abbreviationsLabelsColor="@color/stausbar"/>
+<!--    present layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/box_shap"
+            android:backgroundTint="@color/green" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Present"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/main2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="2 Days"
+            android:textSize="16sp"
+            android:gravity="center_vertical|end"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/main2" />
+    </LinearLayout>
+<!--    absent layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/box_shap"
+            android:backgroundTint="@color/red" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Absent"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/main2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="2 Days"
+            android:textSize="16sp"
+            android:gravity="center_vertical|end"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/main2" />
+    </LinearLayout>
+<!--    late-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/box_shap"
+            android:backgroundTint="@color/yellow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Late"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/main2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="2 Days"
+            android:textSize="16sp"
+            android:gravity="center_vertical|end"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/main2" />
+    </LinearLayout>
+<!--    holiday-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/box_shap"
+            android:backgroundTint="@color/purple_200" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Holiday"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/main2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="2 Days"
+            android:textSize="16sp"
+            android:gravity="center_vertical|end"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/main2" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -15,9 +15,17 @@
         android:theme="@style/Theme.LIPSCollage"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".Activities.AttendanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.NoticeBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.FeesActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activities.NewTempActivity"
             android:exported="false" />
-
         <activity
             android:name=".Activities.CalendarActivity"
             android:exported="false" />

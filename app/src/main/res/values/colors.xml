@@ -12,6 +12,8 @@
     <color name="main2">#562b7d</color>
     <color name="edittext_bg">#FBFAFA</color>
     <color name="red">#F44336</color>
+    <color name="green">#4CAF50</color>
+    <color name="yellow">#CDDC39</color>
 
     <color name="c1">#DCF0F4</color>
     <color name="c2">#FFF8F7</color>

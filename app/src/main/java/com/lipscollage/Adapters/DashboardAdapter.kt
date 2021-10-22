@@ -13,8 +13,7 @@ import com.lipscollage.Models.DashboardModel
 import com.lipscollage.R
 import java.util.*
 
-class DashboardAdapter(var dashList:MutableList<DashboardModel>,var context: Context,
-                      ) :
+class DashboardAdapter(var dashList:MutableList<DashboardModel>,var context: Context, ) :
     RecyclerView.Adapter<MyViewHolder>() {
     lateinit var onItemclickListner: OnItemClickListner
     interface OnItemClickListner{

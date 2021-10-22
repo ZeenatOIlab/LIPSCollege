@@ -1,6 +1,7 @@
 package com.lipscollage.Activities
 
 import android.app.AlertDialog
+import android.app.ProgressDialog
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
@@ -23,10 +24,11 @@ class CalendarActivity : AppCompatActivity() {
         var customactionbarObj= SetCustomActionBar()
         activity=this@CalendarActivity
         customactionbarObj.setCustomBar(activity,"Academic Calendar","calendar")
+        progressDialog = ProgressDialog(activity,R.style.CustomDialog)
+        progressDialog.setCancelable(false)
         val events: MutableList<EventDay> = ArrayList()
 
         val calendar: Calendar = Calendar.getInstance()
-
         calendar.set(2021,10,22)
         events.add(EventDay(calendar, R.drawable.dot_shape, Color.parseColor("#228B22")))
 //or
