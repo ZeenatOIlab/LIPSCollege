@@ -6,6 +6,7 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+    <color name="lightblack">#404040</color>
     <color name="white">#FFFFFFFF</color>
     <color name="stausbar">#0e2881</color>
     <color name="main">#562b7d</color>
@@ -21,6 +22,8 @@
     <color name="c4">#E8F5E9</color>
     <color name="c5">#F6F6F6</color>
     <color name="c6">#FFF8DC</color>
+    <color name="spin_bg">#F3EFEF</color>
+
 
 
     <integer-array name="androidcolors">

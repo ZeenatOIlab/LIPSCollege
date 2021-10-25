@@ -1,4 +1,4 @@
-package com.lipscollage.Activities
+package com.lipscollage
 
 import android.app.AlertDialog
 import android.app.ProgressDialog
@@ -11,8 +11,9 @@ import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.gson.Gson
+import com.lipscollage.Activities.DashboardActivity
+import com.lipscollage.Employee.Employee_Activity.Employe_DashbordActivity
 import com.lipscollage.Models.LoginModel
-import com.lipscollage.R
 import com.lipscollage.Retroit.APIClient
 import com.lipscollage.Utility.sharedpreferenceClass
 import retrofit2.Call
@@ -26,11 +27,15 @@ class LoginActivity : AppCompatActivity() {
     lateinit var loginSubmitButton:Button
     lateinit var backImageView:ImageView
     lateinit var progressDialog: AlertDialog
+    var login_type:String = ""
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
         initViews()
+        login_type = intent.getStringExtra("login_type").toString()
+
         loginSubmitButton.setOnClickListener {
             if (mobileEdittext.text.toString().isEmpty()) {
                 Toast.makeText(this, "Enter Name", Toast.LENGTH_SHORT).show()
@@ -39,8 +44,21 @@ class LoginActivity : AppCompatActivity() {
             }else if (collegeEditText.text.toString().isEmpty()) {
                 Toast.makeText(this, "Enter College Name", Toast.LENGTH_SHORT).show()
             } else {
+                if(login_type.equals("student"))
+                {
+                    // getLogin()
+                    val intent = Intent(this@LoginActivity, DashboardActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                }
+                if(login_type.equals("employee"))
+                {
+                    val intent = Intent(this@LoginActivity, Employe_DashbordActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                }
 
-                getLogin()
+
             }
         }
         backImageView.setOnClickListener { onBackPressed() }
@@ -97,6 +115,9 @@ class LoginActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<LoginModel>, t: Throwable) {
+                progressDialog.dismiss()
+                Log.e("TAG", "response login: ${t.toString()}")
+
                 Toast.makeText(this@LoginActivity,"Something went wrong",Toast.LENGTH_SHORT).show()
             }
 

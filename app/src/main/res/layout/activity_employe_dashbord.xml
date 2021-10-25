@@ -4,14 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".Activities.CalendarActivity">
-
-    <com.applandeo.materialcalendarview.CalendarView
-        android:id="@+id/calendarView"
+    tools:context=".Employee.Employee_Activity.Employe_DashbordActivity">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/emp_dashRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:datePicker="false"
-        />
+        android:layout_height="match_parent"/>
 
 </LinearLayout>

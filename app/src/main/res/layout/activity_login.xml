@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
-    tools:context=".Activities.LoginActivity">
+    tools:context=".LoginActivity">
 
     <ImageView
         android:id="@+id/backImageView"
@@ -80,7 +80,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Password*"
-                    android:inputType="numberPassword"
+                    android:inputType="textPassword"
                     android:padding="15dp"
                     android:fontFamily="@font/roboto_light"
                     android:text="123456"

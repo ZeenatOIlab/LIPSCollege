@@ -18,6 +18,7 @@ import com.lipscollage.Models.DownloadsModel
 import com.lipscollage.Models.TransportModel
 import com.lipscollage.R
 import com.lipscollage.Retroit.APIClient
+import com.lipscollage.Student.Activities.RecordUpdationRequestActivity
 import com.lipscollage.Utility.SetCustomActionBar
 import com.lipscollage.Utility.sharedpreferenceClass
 import com.rajat.pdfviewer.PdfViewerActivity
@@ -39,7 +40,7 @@ class DashboardActivity : AppCompatActivity() {
         setContentView(R.layout.activity_dashboard)
         activity = this@DashboardActivity
         var customactionbarObj = SetCustomActionBar()
-        customactionbarObj.setCustomBar(activity, "Dashboard", "dash")
+        customactionbarObj.setCustomBar(activity, "Student Dashboard", "dash")
         initViews()
         initRecyclerView()
 
@@ -94,6 +95,9 @@ class DashboardActivity : AppCompatActivity() {
                 }
                 else if (dashList[pos].type.equals("attendance")) {
                     startActivity(Intent(activity,AttendanceActivity::class.java))
+                }
+                else if (dashList[pos].type.equals("record")) {
+                    startActivity(Intent(activity,RecordUpdationRequestActivity::class.java))
                 }
             }
         })

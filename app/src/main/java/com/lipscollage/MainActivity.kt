@@ -1,11 +1,10 @@
-package com.lipscollage.Activities
+package com.lipscollage
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.LinearLayout
-import com.lipscollage.Activities.LoginActivity
-import com.lipscollage.R
+import com.lipscollage.Activities.DashboardActivity
 import com.lipscollage.Utility.sharedpreferenceClass
 
 class MainActivity : AppCompatActivity() {
@@ -16,12 +15,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         initViews()
         studentLayout.setOnClickListener {
-            startActivity(Intent(this@MainActivity,LoginActivity::class.java))
+            val intent = Intent(this, LoginActivity::class.java)
+            intent.putExtra("login_type","student")
+            startActivity(intent)
 
         }
         employeLayout.setOnClickListener {
-            startActivity(Intent(this@MainActivity,LoginActivity::class.java))
-        }
+            val intent = Intent(this, LoginActivity::class.java)
+            intent.putExtra("login_type","employee")
+            startActivity(intent)        }
     }
     fun initViews()
     {

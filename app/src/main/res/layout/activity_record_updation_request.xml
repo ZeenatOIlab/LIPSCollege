@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Student.Activities.RecordUpdationRequestActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+    <TextView
+        android:id="@+id/generate_reqTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Generate Request"
+        android:textSize="14sp"
+        android:fontFamily="@font/roboto_bold"
+        android:background="@drawable/btn_bg"
+        android:minHeight="40dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:gravity="center_vertical|center_horizontal"
+        android:backgroundTint="@color/main"
+        />
+    <TextView
+        android:id="@+id/req_detailTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Request Details"
+        android:textSize="14sp"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/roboto_bold"
+        android:background="@drawable/btn_bg"
+        android:minHeight="40dp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical|center_horizontal"
+        android:backgroundTint="@color/c1"
+        />
+</LinearLayout>
+    <ViewSwitcher
+        android:id="@+id/recordViewSwitcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feild to Update"
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_margin="5dp"
+                android:textColor="@color/main" android:backgroundTint="@color/stausbar"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/spin_bg"
+                android:paddingLeft="10dp"
+                android:paddingTop="2dp"
+                android:gravity="center_vertical"
+                android:paddingRight="10dp"
+                android:paddingBottom="2dp">
+                <Spinner
+                    android:id="@+id/recordUpdateSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_light"
+                    android:hint="--Select--"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Request Description"
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/main"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/stausbar"/>
+            <EditText
+                android:id="@+id/messageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/spin_bg"
+                android:gravity="start"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:textColor="@color/black"
+
+                />
+            <Button
+                android:id="@+id/messageSubmitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_bg"
+                android:backgroundTint="@color/main"
+                android:text="Submit"
+                android:fontFamily="@font/roboto_light"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/updateDetailRecyclerView"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ViewSwitcher>
+</LinearLayout>

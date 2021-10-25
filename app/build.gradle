@@ -1,7 +1,11 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'com.google.gms.google-services'}
+    id 'com.google.gms.google-services'
+
+    // Other plugins here if pre-existing
+    id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+}
 
 android {
     compileSdk 30
@@ -67,4 +71,8 @@ dependencies {
 
     //expandable layout
     implementation 'com.github.aakira:expandable-layout:1.4.2@aar'
-    }
+
+    //one signal sdk
+    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
+
+}

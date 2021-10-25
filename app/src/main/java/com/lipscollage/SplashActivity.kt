@@ -1,4 +1,4 @@
-package com.lipscollage.Activities
+package com.lipscollage
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

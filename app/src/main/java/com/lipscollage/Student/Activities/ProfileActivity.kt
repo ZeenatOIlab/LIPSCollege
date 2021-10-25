@@ -15,10 +15,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import com.google.gson.JsonObject
 import com.lipscollage.Adapters.TabPagerAdapter
+import com.lipscollage.MainActivity
 import com.lipscollage.Models.ChangePasswordModel
-import com.lipscollage.Models.TransportModel
 import com.lipscollage.R
 import com.lipscollage.Retroit.APIClient
 import com.lipscollage.Utility.SetCustomActionBar
@@ -50,7 +49,7 @@ class ProfileActivity : AppCompatActivity() {
             Toast.makeText(activity,"Please wait...", Toast.LENGTH_SHORT).show()
             progressDialog.show()
             deleteSharedPreferences(activity,"user_enrolled")
-            val intent = Intent(activity,MainActivity::class.java)
+            val intent = Intent(activity, MainActivity::class.java)
             intent.flags =  Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
             progressDialog.dismiss()
